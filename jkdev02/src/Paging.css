@@ -1,0 +1,9 @@
+.Paging{padding-top:100px;margin:0 auto;text-align:center;display:flex;justify-content:center;}
+.PageIcon{width:30px;height:30px;margin:0 5px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-family:HR;font-size:20px;color:#888}
+.NowPage{background-color:#16b1ca;color:#fff}
+.PageDirection{font-family:dotum;font-weight:bold;color:#cacaca}
+
+@media only screen and (max-width: 768px){
+  .Paging{padding-top:50px}
+  .PageIcon{width:25px;height:25px;font-size:18px}
+}

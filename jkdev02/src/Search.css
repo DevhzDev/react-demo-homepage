@@ -1,0 +1,22 @@
+.ConSearchWrap{display:table;margin:0 auto;margin-top:50px;font-size:14px}
+.ConSearchWrap input{height:40px;border:none;background-color:#f7f7f7;outline:none}
+.ConSearchWrap > div{background-color:#f7f7f7;display:table-cell;vertical-align:bottom}
+.ConSearchWrap select{height:40px;width:120px;border:none;background-color:#f7f7f7;padding-left:10px;outline:none}
+.searchInput{width:590px}
+.searchSubmit{cursor:pointer;padding-right:10px;background:url('http://www.ntriz.co.kr/img/NoticeSearchIcon.png');background-repeat:no-repeat;background-position:center;width:80px}
+
+.searchInput:focus {outline:none}
+.searchInput::placeholder{padding-left:20px;color:#838383;font-size:14px;letter-spacing:-1.2px;text-align:right}
+.searchInput::-webkit-input-placeholder {padding-left:20px;color:#838383;font-size:14px;letter-spacing:-1.2px;text-align:right}
+.searchInput:-ms-input-placeholder {padding-left:20px;color:#838383;font-size:14px;letter-spacing:-1.2px;text-align:right}
+
+@media only screen and (max-width: 1200px){
+  .searchInput{width:400px}
+}
+
+@media only screen and (max-width: 768px){
+  .ConSearchWrap{margin-top:0}
+  .ConSearchSel select{width:80px}
+  .searchInput{width:180px}
+  .searchSubmit{width:60px}
+}

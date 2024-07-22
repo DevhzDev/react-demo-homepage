@@ -1,0 +1,28 @@
+.ConSubTitle{font-weight:normal;font-size:18px;font-family:nt-L}
+
+.ServiceWrap{display:flex;justify-content:center;align-items:center;max-width:1700px;margin:0 auto}
+.ServiceAboutWrap{width:50%}
+.ServiceImgWrap{width:50%;height:670px;background-position:center;background-size:cover;background-repeat:no-repeat}
+.ServiceSubTitle{font-size:20px}
+.ServiceMainTitle{font-weight:bold;font-size:60px;padding-bottom:20px}
+.ServiceAbout{padding-bottom:50px;width:50%;font-size:20px;word-break:keep-all}
+.IconLine{display:flex}
+.IconCell{text-align:center;width:100px}
+.IconCell > div{word-break:keep-all}
+.IconCellImg{display:table;margin:0 auto;margin-bottom:10px}
+.IconCellImg img{border-radius:50%;box-shadow:3px 3px 7px #ccc;max-width:95%}
+.IconCellImgAbout{padding:0 5px}
+.ServiceMoreBtnWrap{padding-top:100px}
+.ServiceMoreBtnWrap button{border:none;background-color:#fff;text-align:center;color:#000;width:140px;height:55px;font-size:23px;border:1px solid #888;cursor:pointer;transition-duration:0.2s}
+.ServiceMoreBtnWrap button:hover{background-color:#16b1ca;color:#fff;border:1px solid #16b1ca}
+
+@media only screen and (max-width: 1200px){
+  .ServiceMainTitle{font-size:40px}
+  .ServiceWrap{display:block;padding:0;position:relative;padding-bottom:100px}
+  .ServiceMoreBtnWrap{padding:0;position:absolute;bottom:0;width:100%;text-align:center}
+  .ServiceAboutWrap{width:100%;text-align:center}
+  .IconLine{margin:0 auto;justify-content:center;flex-wrap:wrap}
+  .ServiceAbout{width:100%;font-size:16px}
+  .ServiceImgWrap{width:100%;margin-top:20px}
+  .IconCell{width:80px;margin:0 5px;margin-bottom:5px}
+}

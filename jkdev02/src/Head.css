@@ -1,0 +1,62 @@
+/* Header */
+.Header{background:rgba(255,255,255,0.5);padding:0 100px;display:flex;flex-wrap:nowrap;flex-direction:row;position:fixed;top:0;width:100%;box-sizing:border-box;transition-duration:0.3s;overflow:hidden;z-index:900}
+.HeaderScroll{background-color:#fff;border-bottom:1px solid #eaeaea}
+.HdLogoImg{cursor:pointer}
+.HdLogo{flex-grow:1;display:flex;align-items:center;height:100px}
+.HdMenuWrap{flex-grow:3;display:flex;justify-content:flex-end;transition-duration:0.3s;position:relative}
+.HdMenu{width:150px;text-align:center;line-height:100px;cursor:pointer;font-size:22px;transition-duration:0.3s;font-family:HR}
+.HdMenuMake{display:flex;flex-direction:column;}
+.HdMenuMake:hover .HdMenu{box-shadow:inset 0px -4px 0px 0px #16b1ca}
+.HdMenuMake:hover .HdMenu2Depth{background-color:#f8f8f8}
+.HdMenu2Depth{height:100%;padding:5px;display:none;opacity:0;color:#888}
+.HdMenu2DepSub{padding:7px 3px;cursor:pointer}
+.HdMenu3Bar{flex-grow:1;display:flex;align-items:center;flex-direction:row-reverse;height:100px}
+.HdMenu3Btn{cursor:pointer}
+.menuBar{width:40px;height:3px;background-color:#000;margin-bottom:10px;transition-duration:0.4s;position:relative;z-index:999}
+.menuBarMove:nth-child(1){transform:translateY(0px) rotate(360deg);opacity:0}
+.menuBarMove:nth-child(2){transform:translateY(0px) rotate(135deg)}
+.menuBarMove:nth-child(3){transform:translateY(-12px) rotate(-135deg)}
+
+/*Right Category*/
+.HdLeftCate{background-color:#fff;height:100%;position:fixed;top:0;right:0px;width:60%;padding:100px;box-sizing:border-box;border-left:1px solid #e8e8e8}
+.HdLeftCateLine{margin-bottom:50px}
+.HdLeft1DepMenu{cursor:pointer;font-size:44px;font-family:HR;margin-bottom:20px}
+.HdLeftCate2DepLine{font-size:15px;color:#888}
+.HdLeftCate2DepLine a{display:inline-block}
+.HdLeftCate2DepMenu{display:inline;padding:0 15px;cursor:pointer;transition-duration:0.3s}
+.HdLeftCate2DepMenu:hover{color:#2a2a2a}
+
+/* PC */
+@media only screen and (min-width: 1200px) {
+  .Header:hover .HdMenu2Depth{display:block;opacity:1;animation-name:HdHover;animation-duration:0.7s}
+  .Header:hover{background-color:#fff;}
+  @keyframes HdHover{
+    0%{
+      opacity:0;
+    }
+    100%{
+      opacity:1
+    }
+  }
+}
+
+/* Tablet */
+@media only screen and (max-width: 1200px) {
+  .HdMenuWrap{display:none}
+}
+
+@media only screen and (max-width: 1024px) {
+  .HdLeftCate{width:80%}
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .Header{padding:0 20px;border-bottom:1px solid #e8e8e8}
+  .HdLogo{height:70px}
+
+  /* Right Category */
+  .HdLeftCate{width:100%;padding:60px 20px}
+  .HdMenu3Bar{height:70px}
+  .HdLeftCate2DepLine a{margin-bottom:10px}
+}

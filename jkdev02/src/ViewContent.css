@@ -1,0 +1,19 @@
+.ViewWrap{border-top:2px solid #000}
+.ViewTitle{min-height:77px;box-sizing:border-box;padding:20px 0;font-size:26px;border-bottom:1px solid #e2e2e2;font-weight:bold}
+.ViewInfo{display:flex;width:100%;align-items:center;padding:10px 0;color:#888}
+.ViewInfoBar{font-size:13px;padding:0 15px}
+.ViewContents{padding-top:20px;padding-bottom:30px;min-height:300px}
+.ViewContents img{max-width:100%}
+.ViewTags{border-bottom:1px solid #e2e2e2;padding-bottom:20px;font-size:15px;color:#888}
+.ViewMenu{display:flex;width:100%;margin-top:40px}
+.ViewMenu > div{width:33.33%;height:57px;line-height:57px;font-family:nt-M;font-size:18px}
+.ViewMenuIcon{text-align:center}
+.ViewMenuIcon img{cursor:pointer}
+.ViewPrev{text-align:left;justify-content:right}
+.ViewNext{text-align:right;justify-content:right}
+.ViewBtnNone{display:none}
+
+@media only screen and (max-width: 768px){
+  .ViewTitle{font-size:18px}
+  .ViewInfo{font-size:14px}
+}

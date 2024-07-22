@@ -1,0 +1,37 @@
+.IndexD{max-width:1900px;box-sizing:border-box;padding:0 100px;margin:150px auto;display:flex;width:100%;box-sizing:border-box}
+.IndexDTitleWrap{margin-top:50px;padding-right:40px}
+.IndexDTitle{font-size:60px;font-weight:bold;margin-bottom:20px}
+.IndexDTitleSub{font-size:19px;word-break:keep-all;margin-bottom:20px}
+.IndexDContentWrap{width:1185px;padding:50px 70px;box-sizing:border-box}
+.IndexConBackground{background-color:#f3f3f3;}
+.IndexDBtn{font-family:'nt-L';background-color:#fff;border:1px solid #9a9292;border-radius:5px;width:135px;height:45px;font-size:15px;cursor:pointer;margin:0 5px;transition:0.3s}
+.IndexDBtnActive{background-color:#16b1ca;color:#fff;border:1px solid #16b1ca}
+.IndexDBtnDiv{margin-bottom:15px}
+.IndexDSwiperItem{background-color:#fff;padding:20px;box-sizing:border-box;cursor:pointer;box-shadow:4px 4px 6px 2px #d0d0d0;height:420px}
+.IndexDSwiperItemImg{height:220px;background-position:center;background-size:cover;background-repeat:no-repeat;border:1px solid #eaeaea}
+.IndexDSwiperItemTitle{margin-top:20px;font-size:17px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word;line-height:1.2em; height:2.4em}
+.IndexDSwiperItemCon{font-size:15px;color:#aaa;margin-top:7px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;word-wrap:break-word;line-height:1.2em; height:3.6em}
+.IndexDSwiperItemDate{margin-top:10px;color:#888;font-size:14px}
+.IndexDContentWrap .swiper-container{padding-bottom:8px;padding-right:8px}
+.IndexDSwiperNavi{margin-top:20px}
+.IndexDSwiperNavi img{margin-right:10px;cursor:pointer}
+
+
+/* Tablet */
+@media only screen and (max-width: 1700px) {
+  .IndexD{padding:0;margin:100px 0;display:block}
+  .IndexDtitleBtn{display:flex;justify-content:center}
+  .IndexDTitleWrap{text-align:center;width:320px;margin:0 auto;padding-right:0}
+  .IndexDContentWrap{margin:0 auto;padding:50px 0}
+}
+
+@media only screen and (max-width: 1400px) {
+  .IndexDContentWrap{width:100%;margin:0 auto;padding:50px;box-sizing:border-box}
+
+}
+
+@media only screen and (max-width: 768px) {
+  .IndexDContentWrap{margin:0 auto;max-width:390px}
+  .IndexDSwiperNavi{display:flex;justify-content:center}
+}
+

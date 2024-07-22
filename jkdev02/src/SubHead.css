@@ -1,0 +1,23 @@
+.SubHead{width:100%;height:520px;background-size:cover;background-repeat:no-repeat;position:relative}
+.SubHeadTitle{position:absolute;width:100%;top:55%;text-align:center;color:#fff;font-size:50px}
+.SubHeadBtnWrap{position:absolute;width:100%;bottom:0;display:flex;align-items:center;justify-content:center}
+.SubHeadMobile{position:relative;height:200px;padding:50px 0;margin:0 20px;border-bottom:3px solid #000;display:flex;justify-content:center;align-items:center}
+.SubHeadMobileTitle{text-align:center;font-weight:bold;font-size:40px}
+.None{display:none}
+
+.HdSubBtn{width:260px;height:50px;text-align:center;display:flex;align-items:center;justify-content:center;background-color:rgba(0,0,0,0.5);color:#fff;border-right:1px solid #484848}
+.SubHeadBtnWrap a:last-child .HdSubBtn{border-right:none}
+.HdSubBtnActive{background-color:#fff;color:#000;}
+
+
+@media only screen and (max-width: 1200px){
+	.HdSubBtn{width:150px}
+}
+
+@media only screen and (max-width: 768px){
+  .SubHeadBtnWrap a{width:100%}
+  .SubHeadBtnWrap{bottom:20px}
+  .HdSubBtn{width:100%;word-break:keep-all;background-color:#333;font-size:14px;border:1px solid #ccc;border-right:none;border-bottom:none}
+  .SubHeadBtnWrap a:last-child .HdSubBtn{border-right:1px solid #ccc}
+  .HdSubBtnActive{background-color:#fff;color:#333}
+}

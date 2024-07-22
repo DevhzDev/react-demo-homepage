@@ -1,0 +1,25 @@
+.HistoryWrap{padding-top:100px;width:1040px;margin:0 auto;overflow:hidden;}
+.HistoryTitle{width:100%;position:relative;font-size:44px;font-family:HR;display:table}
+.HistoryTitleName{width:95px;position:relative;z-index:5;background-color:#fff}
+.HistoryCon{width:50%;min-height:350px;padding:0 10%;float:left;box-sizing:border-box}
+.HistoryCon:nth-child(2n-1){padding-left:0}
+.HistoryCon:nth-child(2n){padding-right:0}
+
+.HistoryTitleLine{position:absolute;width:100%;height:1px;border-bottom:1px solid#000;left:0;bottom:10px}
+.HistoryLineWrap{padding:20px 0}
+.HistoryLine{width:100%;display:table;padding-bottom:5px;font-size:18px}
+.HistoryLine > div{display:table-cell;vertical-align:middle}
+.HistoryLineDash{width:17px}
+
+@media only screen and (max-width: 1200px){
+  .HistoryWrap{width:600px}
+  .HistoryCon{padding:0 5%}
+}
+
+@media only screen and (max-width: 768px){
+  .HistoryWrap{width:100%;padding-top:50px}
+  .HistoryTitle{font-size:30px}
+  .HistoryTitleName{width:65px}
+  .HistoryLineWrap{padding:10px 0}
+  .HistoryLine{font-size:15px}
+}

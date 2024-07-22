@@ -1,0 +1,20 @@
+
+.AboutComTitle{padding-bottom:30px}
+.AboutComCon{text-align:center;padding:0 20%;padding-bottom:50px;word-break:keep-all;font-size:18px}
+.AboutComImgWrap{text-align:center}
+.AboutComImgWrap img{max-width:100%}
+.WhatWeDo{padding-top:100px}
+.WhatTitle{text-align:center;font-weight:bold;font-size:50px;padding-bottom:20px}
+.WhatCon{text-align:center}
+.WhatImg{max-width:100%}
+
+@media only screen and (max-width: 1200px){
+	.AboutComCon{padding:0px}
+	.AboutComTitle{font-size:50px}
+}
+
+@media only screen and (max-width: 768px){
+	.AboutComCon{padding-bottom:50px}
+	.AboutComTitle{font-size:40px}
+	.AboutComCon{font-size:15px}
+}

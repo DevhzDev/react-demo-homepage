@@ -1,0 +1,16 @@
+.ServiceConIn{display:table;margin:0 auto;width:485px}
+.inputLogin{width:100%;height:40px}
+.LoginLine{width:100%;display:flex;align-items:center;margin-bottom:20px}
+.LoginLineName{width:15%}
+.inputArea{width:85%}
+.LoginBtnWrap{padding-top:20px}
+.LoginBtn{width:100%;height:50px;border:none;background-color:#16b1ca;color:#fff;font-size:20px;font-family:nt-L;cursor:pointer}
+.LoginJoinWrap{color:#888;text-align:center;cursor:pointer;margin-top:20px}
+.LoginJoinWrap a:hover{text-decoration:underline}
+
+@media only screen and (max-width: 768px){
+  .ServiceConIn{margin:0 auto;width:95%}
+  .LoginLineName{font-size:14px}
+  .LoginBtn{font-size:18px}
+  .LoginJoinWrap{font-size:14px}
+}

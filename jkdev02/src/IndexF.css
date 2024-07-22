@@ -1,0 +1,41 @@
+.IndexF{padding:0 100px;text-align:center}.IndexF{padding:0 100px;max-width:1900px;margin:150px auto}
+.IndexFTitle{padding-bottom:50px}
+.IndexFMainTitle{text-align:center;font-size:70px;font-weight:bold;padding-bottom:20px}
+.IndexFMainSub{word-break:keep-all;text-align:center;font-size:20px}
+.IndexFContent{display:flex;justify-content:space-between}
+.IndexFItem{width:23%;height:555px;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:flex-end;position:relative}
+.IndexFItem:last-child{margin-right:0}
+.IndexFItemIn{background-color:#fff;width:70%;height:300px;display:flex;align-items:center;transition:0.4s}
+.IndexFItem:hover .IndexFItemIn{height:400px;background-color:#000}
+.IndexFItemAbout{width:70%;height:300px;box-sizing:border-box;padding:10px;color:#000;text-align:right;position:absolute;top:50%;transform:translateY(-50%)}
+.IndexFItem:hover .IndexFItemAbout{color:#fff;text-align:left}
+
+.IndexFItemTitle{font-size:30px;margin:30px 0}
+.IndexFItemSub{word-break:keep-all;height:90px}
+.IndexFItemMore{text-decoration:underline;cursor:pointer}
+
+
+/* Tablet */
+@media only screen and (max-width: 1400px) {
+	.IndexFContent{flex-wrap:wrap}
+	.IndexFItem{width:49%;margin-bottom:15px}
+}
+@media only screen and (max-width: 1200px) {
+	.IndexF{padding:0 50px}
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+	.IndexF{padding:0 20px;margin:100px 0}
+
+	.IndexFMainTitle{font-size:50px}
+	.IndexFMainSub{font-size:16px}
+	
+	.IndexFItem{height:400px}
+	.IndexFItemTitle{font-size:25px}
+	.IndexFItemSub{font-size:13px;height:70px}
+	.IndexFItemMore{font-size:12px}
+	.IndexFItemIn{width:80%;height:250px}
+	.IndexFItem:hover .IndexFItemIn{height:300px}
+	.IndexFItemAbout{width:80%;height:250px}
+}

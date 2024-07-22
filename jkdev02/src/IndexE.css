@@ -1,0 +1,41 @@
+.IndexE{padding:0 100px;text-align:center}.IndexE{padding:0 100px;max-width:1900px;margin:150px auto}
+.IndexETitle{padding-bottom:50px}
+.IndexEMainTitle{text-align:center;font-size:70px;font-weight:bold;padding-bottom:20px}
+.IndexEMainSub{word-break:keep-all;text-align:center;font-size:20px}
+.IndexEContent{display:flex;justify-content:space-between}
+.IndexEItem{width:23%;height:555px;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:flex-end;position:relative}
+.IndexEItem:last-child{margin-right:0}
+.IndexEItemIn{background-color:#fff;width:70%;height:300px;display:flex;align-items:center;transition:0.4s}
+.IndexEItem:hover .IndexEItemIn{height:400px;background-color:#000}
+.IndexEItemAbout{width:70%;height:300px;box-sizing:border-box;padding:10px;color:#000;text-align:right;position:absolute;top:50%;transform:translateY(-50%)}
+.IndexEItem:hover .IndexEItemAbout{color:#fff;text-align:left}
+
+.IndexEItemTitle{font-size:30px;margin:30px 0}
+.IndexEItemSub{word-break:keep-all;height:90px}
+.IndexEItemMore{text-decoration:underline;cursor:pointer}
+
+
+/* Tablet */
+@media only screen and (max-width: 1400px) {
+	.IndexEContent{flex-wrap:wrap}
+	.IndexEItem{width:49%;margin-bottom:15px}
+}
+@media only screen and (max-width: 1200px) {
+	.IndexE{padding:0 50px}
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+	.IndexE{padding:0 20px;margin:100px 0}
+
+	.IndexEMainTitle{font-size:50px}
+	.IndexEMainSub{font-size:16px}
+	
+	.IndexEItem{height:400px}
+	.IndexEItemTitle{font-size:25px}
+	.IndexEItemSub{font-size:13px;height:70px}
+	.IndexEItemMore{font-size:12px}
+	.IndexEItemIn{width:80%;height:250px}
+	.IndexEItem:hover .IndexEItemIn{height:300px}
+	.IndexEItemAbout{width:80%;height:250px}
+}

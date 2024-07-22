@@ -1,0 +1,40 @@
+.JoinWrap{width:1000px;margin:0 auto}
+.JoinWrapTitle{font-size:20px;font-family:nt-M;padding-bottom:10px}
+.JoinAgreeCon{background-color:#f8f8f8;height:150px;padding:10px;box-sizing:border-box;margin-bottom:5px;font-size:14px}
+.JoinWrapIn{padding-bottom:50px}
+.JoinInfoContent{border-top:2px solid #000}
+.JoinInfoLine{width:100%;display:flex;align-items:center;height:65px;border-bottom:1px solid #dadada}
+.JoinInfoLineAddress{height:auto;min-height:65px}
+.JoinInfoTable{display:flex;width:50%;align-items:center}
+.JoinInfoLeft{height:100%;width:150px;word-break:keep-all;padding:0 15px;display:flex;align-items:center;box-sizing:border-box}
+.JoinInfoRight{padding:0 15px;width:350px;box-sizing:border-box}
+.JoinInfoRightAddress{width:850px;padding:5px 15px}
+.JoinAddressLine{padding:5px 0;box-sizing:border-box;width:100%;display:flex}
+.JoinZipLine{width:350px}
+.JoinMbZipLeft{width:60%}
+.JoinMbZipRight{width:40%;padding-left:10px;box-sizing:border-box}
+.ZipBtn{cursor:pointer;background-color:#333;color:#fff;border-radius:10px;padding:10px 15px;border:none;font-family:nt-L}
+.JoinInfoLine .JoinInfoTable:nth-child(2n){border-left:1px solid #dadada}
+.joinInput{width:100%}
+
+.JoinSubmitWrap{padding-top:40px;text-align:center}
+.JoinSubmitBtn{cursor:pointer;border:none;background-color:#16b1ca;color:#fff;padding:10px 30px;border-radius:15px;font-size:20px;font-family:nt-L}
+
+@media only screen and (max-width: 1200px){
+  .JoinWrap{width:100%}
+  .JoinInfoRight{padding:0 10px}
+  .JoinInfoLeft{padding:0 10px;font-size:14px}
+  .JoinInfoRightAddress{padding:5px 15px}
+}
+
+@media only screen and (max-width: 768px){
+  .JoinInfoTable{width:100%;height:65px;border-bottom:1px solid #dadada}
+  .JoinInfoLine{display:block;height:auto;border-bottom:none}
+  .JoinInfoLine .JoinInfoTable:nth-child(2n){border-left:none}
+  .JoinInfoLeft{width:20%}
+  .JoinInfoRight{width:80%}
+  .JoinMbZipRight{padding-left:5px}
+  .ZipBtn{width:100%;max-width:120px;padding:5px;font-size:12px;height:40px}
+  .JoinInfoLineAddress{display:flex;border-bottom:1px solid #dadada}
+  .JoinZipLine{width:100%}
+}

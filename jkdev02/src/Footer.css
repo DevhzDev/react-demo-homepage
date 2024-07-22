@@ -1,0 +1,30 @@
+.Footer{background-color:#f8f8f8;text-align:center;color:#666}
+.FooterLine{padding-bottom:10px;font-size:15px}
+.FooterIn{padding:50px 100px}
+.FooterCoName{font-size:16px}
+.FooterInfoWrap{display:flex;text-align:center;justify-content:center}
+.FooterBar{padding:0 10px;font-size:12px}
+.FooterIconWrap{display:flex;justify-content:space-evenly;align-items:center;width:390px;margin:10px auto}
+.FooterIconWrap img{margin:0 10px;max-width:33%}
+.FooterSelectLine{padding-top:10px}
+.FooterSelect{width:150px;height:30px;padding:0 10px;border:1px solid #eaeaea;-webkit-appearance: none;-moz-appearance: none;appearance: none;background:#e9e9e9 url("http://www.ntriz.co.kr/img/SelectArrow.png") no-repeat 95% 50%}
+.FooterSelect::-ms-expand {display:none}
+
+
+/* Tablet */
+@media only screen and (max-width: 1700px) {
+  .FooterIn{padding:50px}
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 1700px) {
+  .FooterIn{font-size:13px}
+  .FooterBar{padding:0 5px}
+  .FooterLine{font-size:13px}
+  .FooterCoName{font-size:15px}
+  .FooterInfo{font-size:13px}
+  .FooterIconWrap{width:40%}
+  .FooterFlex{display:flex;justify-content:center;align-items:center}
+  
+}

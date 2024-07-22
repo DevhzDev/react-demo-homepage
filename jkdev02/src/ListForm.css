@@ -1,0 +1,48 @@
+/* 게시글 수 */
+.MediaCntWrap{border-bottom:2px solid #000;font-size:16px;padding-bottom:10px}
+.MediaCnt{font-weight:bold;font-size:18px}
+
+/* 갤러리형 */
+.MediaListItem{display:flex;padding:30px 20px;width:100%;box-sizing:border-box;border-bottom:1px solid #e8e8e8;cursor:pointer}
+.MediaListItem:hover .MediaItImg > div{transform:scale(1.2)}
+.MediaItImg{width:25%;height:280px;background-color:#fff;position:relative;overflow:hidden}
+.MediaItImg > div{width:100%;height:100%;position:absolute;margin:auto;right:0;top:0;left:0;bottom:0;background-size:cover;background-position:center;background-repeat:no-repeat;transition:0.4s}
+.MediaItAbout{width:75%;box-sizing:border-box;padding-left:20px;display:flex;justify-content:center;flex-direction:column;}
+.MediaItTitle{font-size:22px;font-weight:bold;padding-bottom:40px;word-break:keep-all}
+.MediaItContents{font-size:19px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word;line-height:1.4em; height:2.8em;margin-bottom:40px}
+.MediaItDate{color:#888}
+
+/* 일반리스트 */
+.NormalItemList{display:flex;width:100%;height:100px;align-items:center;border-bottom:1px solid #eaeaea}
+.NormalItemTitle{width:80%;font-size:22px}
+.NormalItemDate{width:20%;text-align:right}
+
+.WriteBtnWrap{text-align:right;margin-top:30px}
+.WriteBtn{background-color:#333;color:#fff;padding:10px 30px;font-size:17px;border:none;font-family:nt-L;cursor:pointer}
+
+@media only screen and (max-width: 1200px){
+  /* 갤러리형 */
+  .MediaListItem{flex-direction:column;}
+  .MediaItImg{width:500px;height:350px;margin:0 auto;margin-bottom:20px}
+  .MediaItAbout{width:100%;padding-left:0}
+  .MediaItTitle{padding-bottom:10px;font-size:20px}
+  .MediaItContents{margin-bottom:10px;font-size:16px}
+  .MediaItDate{font-size:16px}
+}
+
+@media only screen and (max-width: 768px){
+  /* 갤러리형 */
+  .MediaCntWrap{font-size:14px;padding-bottom:5px}
+  .MediaCnt{font-size:16px}
+  .MediaListItem{padding:15px 10px}
+  .MediaItImg{width:245px;height:245px;margin:0 auto;margin-bottom:20px}
+
+  /* 일반리스트 */
+  .NormalItemList{height:70px}
+  .NormalItemTitle{font-size:18px}
+  .NormalItemDate{font-size:13px}
+  
+  .WriteBtn{font-size:14px}
+  .ConSubTitleWrap{display:none}
+
+}
